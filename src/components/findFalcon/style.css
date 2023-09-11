@@ -1,0 +1,81 @@
+
+.rootCont{
+ padding: 20px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ overflow: hidden;
+}
+
+.dataContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 20px;
+    border: 1px solid rgba(0,0,0,0.5);
+    overflow: scroll;
+    width: 100%;
+}
+.destination1,.destination2, .destination3, .destination4{
+    padding: 20px;
+}
+.destinationSelect{
+    padding: 10px;
+    border: 2px solid #1d1d1d;
+    border-radius: 10px;
+    font-style: italic;
+    cursor: pointer;
+    width: 100%;
+}
+.destinationOption{
+    padding: 10px;
+    border: 2px solid #1d1d1d;
+    border-radius: 10px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.vehicleSelect{
+    padding: 10px;
+    border: 2px solid #1d1d1d;
+    border-radius: 10px;
+    font-style: italic;
+    cursor: pointer;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+}
+.vehicleOption{
+    padding: 10px;
+    border-radius: 25px;
+    border: 2px solid rgba(0,0,0,0.3);
+    font-style: italic;
+    cursor: pointer;
+}
+.timeBlock{
+    margin: 20px auto;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 700;
+    color: #000;
+}
+.submitButton{
+    height: 44px;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background-color: #000;
+    color: #fafafa;
+    cursor: pointer;
+}
+.radioBtn:checked{
+    background-color: green;
+    color: green;
+}
+[type="radio"]:checked + label:after {
+    background-color: red;
+    border: 2px solid red;
+  }

@@ -1,0 +1,39 @@
+.headerCont{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.headerTabs{
+    position: absolute;
+    right: 0;
+    padding: 10px 20px 35px 10px;
+}
+h1{
+    padding-top: 50px;
+}
+.resetBtn{
+    height: 34px;
+    border-right: 2px solid #000;
+    min-width: 30px;
+    color: #000;
+    background: transparent;
+    cursor: pointer;
+    font-weight: 600;
+    padding-right: 20px;
+    font-size: 16px;
+
+}
+Link{
+    text-decoration: none;
+}
+.geekTrustBtn{
+    height: 44px;
+    font-size: 16px;
+    min-width: 30px;
+    color: #000;
+    background: transparent;
+    cursor: pointer;
+    font-weight: 500;
+    padding-left: 20px;
+    text-decoration: none;
+}
